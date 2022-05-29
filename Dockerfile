@@ -20,4 +20,4 @@ RUN poetry install --no-dev
 
 ADD . /app
 
-CMD ["sleep", "infinity"]
+CMD ["python", "main.py"]
