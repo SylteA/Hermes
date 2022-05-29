@@ -11,6 +11,7 @@ repos:
         name: isort (python)
         entry: isort --check .
         language: python
+
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.5.0
     hooks:
