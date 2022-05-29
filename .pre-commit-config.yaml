@@ -9,7 +9,7 @@ repos:
 
       - id: isort
         name: isort (python)
-        entry: isort --check .
+        entry: isort --check
         language: python
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
